@@ -13,34 +13,41 @@ function Cards() {
               src='images/Breakthroughstarshot - Copy.jfif'
               text='Designing a YB-DCFA Laser Amplification System!'
               label='Photonics, Breakthrough Starshot'
-              path='/projects'
+              path='/projects/photonics'
             />
             <CardItem
               src='images/Quadcopter.jpg'
               text='Building a Quadcopter!'
               label='Control Systems, C/C++'
-              path='/projects'
+              path='/projects/quadcopter'
             />
           </ul>
           <ul className='cards__items'>
-            <CardItem
+            {/* <CardItem
               src='images/logo-og.png'
-              text='Fullstack development hosted on a Home Server'
+              text='Fullstack development hosted on a Home Server!'
               label='React, Ubuntu, Apache, SQL-server '
-              path='/projects'
-            />
+              path='/projects/about-this-website'
+            /> */}
             <CardItem
               src='images/circuit-board-23.jpg'
               text='Building a Full Circuit Simulator!'
               label='Circuit Analysis, MATLAB'
-              path='/projects'
+              path='/projects/circuit-simulator'
             />
             <CardItem
               src='images/Machine-Learning-COVID-19-Concept.jpg'
-              text='COVID-19 Classifier!'
-              label='Machine Learning'
-              path='/contact-me'
+              text='KNN Classifier to Analyze Google COVID-19 Datasets!'
+              label='Machine Learning, Data Science'
+              path='/contact-me/analyzing-covid-19-datasets'
             />
+             <CardItem
+              src='images/MachineLearninginMarketing-1621x1000.jpg'
+              text='Softmax Regressor to analyze Cardiotocography Dataset!'
+              label='Machine Learning, Data Science'
+              path='/contact-me/analyzing-covid-19-datasets'
+            />
+            
           </ul>
         </div>
       </div>
