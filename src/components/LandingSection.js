@@ -1,39 +1,45 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './LandingSection.css';
+import { Link } from 'react-router-dom';
+import { Lutton } from './Lutton'
 
 
 function LandingSection() {
-  return (
+   return (
     <div className='landing-container'>
        <video src='/videos/mixkit-light-in-the-background-of-a-virtual-3d-database-19630-medium.mp4' autoPlay loop muted />
       
       <h1>Hi I'm Ameer</h1>
       {/* <p>What are you waiting for?</p> */}
       <div className='landing-btns'>
-        <Button
-          className='btns-resume'
+        <Link to=''>
+        <Lutton
+          className='ltns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
-          //onClick={}
+          //onClick={window.open('https://www.linkedin.com/in/ameer-i-859837165/')}
         >
-          Resume <i class="fas fa-file"></i>
-        </Button>
-        <Button
-          className='btns-linkedin'
+          Resume 
+        </Lutton>
+        </Link>
+        <Link to='//www.linkedin.com/in/ameer-i-859837165/'>
+        <Lutton
+          className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
           
-          //onClick={window.open("https://www.linkedin.com/in/ameer-i-859837165/")}
+          //onClick={}
         >
           LinkedIn  <i class='fab fa-linkedin' />
-        </Button>
+        </Lutton>
+        </Link>
         <Button
-          className='btns-github'
+          className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
-          //onClick={window.open("https://github.com/AmeerJ97")}
+          //onClick={}
         >
           Github <i class='fab fa-github' />
         </Button>

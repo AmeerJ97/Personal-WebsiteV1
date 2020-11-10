@@ -59,6 +59,7 @@ function Navbar() {
               >
                 Projects
               </Link>
+              
             </li>
 
             <li>
