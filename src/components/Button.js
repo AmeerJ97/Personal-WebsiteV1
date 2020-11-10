@@ -33,7 +33,7 @@ export const Button = ({
 
   return (
     
-    <Link to='/Resume' className='btn-mobile'>
+    <Link to='/contact-me' className='btn-mobile'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
@@ -42,6 +42,7 @@ export const Button = ({
         {children}
       </button>
     </Link>
+    
     
 
       

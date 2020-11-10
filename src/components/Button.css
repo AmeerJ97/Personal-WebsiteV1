@@ -4,7 +4,7 @@
   
   .btn {
     padding: 8px 20px;
-    border-radius: 2px;
+    border-radius: 5px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -13,7 +13,7 @@
   .btn--primary {
     background-color: var(--primary);
     color: #242424;
-    border: 1px solid var(--primary);
+    border: 2px solid var(--primary);
   }
   
   .btn--outline {
@@ -30,8 +30,8 @@
   }
   
   .btn--large {
-    padding: 12px 26px;
-    font-size: 20px;
+    padding: 16px 30px;
+    font-size: 26px;
   }
   
   .btn--large:hover,

@@ -2,8 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './LandingSection.css';
-import { Button_github } from './Button_github';
-import { Button_linkedin } from './Button_linkedin';
+
 
 function LandingSection() {
   return (
@@ -14,30 +13,30 @@ function LandingSection() {
       {/* <p>What are you waiting for?</p> */}
       <div className='landing-btns'>
         <Button
-          className='btns'
+          className='btns-resume'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
           //onClick={}
         >
-          Resume
+          Resume <i class="fas fa-file"></i>
         </Button>
-        
-        <Button_linkedin
-          className='btn-linkedin'
+        <Button
+          className='btns-linkedin'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
-          //onClick={}
+          
+          //onClick={window.open("https://www.linkedin.com/in/ameer-i-859837165/")}
         >
-          LinkedIn
-        </Button_linkedin>
-        <Button_github
-          className='btn-github'
+          LinkedIn  <i class='fab fa-linkedin' />
+        </Button>
+        <Button
+          className='btns-github'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
-          //onClick={}
+          //onClick={window.open("https://github.com/AmeerJ97")}
         >
-          Github
-        </Button_github>
+          Github <i class='fab fa-github' />
+        </Button>
 
         {/* <Button
           className='btns'

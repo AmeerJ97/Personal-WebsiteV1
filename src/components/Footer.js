@@ -36,6 +36,23 @@ function Footer() {
             >
               <i class='fab fa-linkedin' />
             </Link>
+            <Link
+              class='social-icon-link github'
+              to='/'
+              target='_blank'
+              aria-label='Github'
+            >
+              <i class='fab fa-github' />
+              </Link>
+              <Link
+              class='social-icon-link github'
+              to='/'
+              target='_blank'
+              aria-label='Resume'
+            > 
+              <i class="fas fa-file"></i>
+              </Link>
+              
           </div>
         </div>
       </section>
