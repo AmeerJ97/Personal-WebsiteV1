@@ -16,36 +16,30 @@ function Cards() {
               path='/projects/photonics'
             />
             <CardItem
-              src='images/Quadcopter.jpg'
+              src='images/Quadcopter1.jpg'
               text='Building a Quadcopter!'
               label='Control Systems, C/C++'
               path='/projects/quadcopter'
             />
           </ul>
           <ul className='cards__items'>
-            {/* <CardItem
-              src='images/logo-og.png'
-              text='Fullstack development hosted on a Home Server!'
-              label='React, Ubuntu, Apache, SQL-server '
-              path='/projects/about-this-website'
-            /> */}
             <CardItem
               src='images/circuit-board-23.jpg'
               text='Building a Full Circuit Simulator!'
               label='Circuit Analysis, MATLAB'
               path='/projects/circuit-simulator'
             />
-            <CardItem
+            {/* <CardItem
               src='images/Machine-Learning-COVID-19-Concept.jpg'
               text='KNN Classifier to Analyze Google COVID-19 Datasets!'
               label='Machine Learning, Data Science'
-              path='/contact-me/analyzing-covid-19-datasets'
-            />
+              path='/projects/covid19-KNN-trees'
+            /> */}
              <CardItem
               src='images/MachineLearninginMarketing-1621x1000.jpg'
-              text='Softmax Regressor to analyze Cardiotocography Dataset!'
+              text='Softmax Regressor to analyze Cardiotocography Data!'
               label='Machine Learning, Data Science'
-              path='/contact-me/analyzing-covid-19-datasets'
+              path='/projects/softmax-cardiotocography'
             />
             
           </ul>
