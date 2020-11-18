@@ -25,7 +25,7 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='social-icons'>
-            <pre>                                                                                             </pre>
+            <pre>                                                                                                 </pre>
             <Link
               class='social-icon-link linkedin'
               to={'//www.linkedin.com/in/ameer-i-859837165/'}
@@ -34,7 +34,7 @@ function Footer() {
             >
               <i class='fab fa-linkedin' />
             </Link>
-            <pre>      </pre>
+            <pre>         </pre>
             <Link
               class='social-icon-link github'
               to='//github.com/AmeerJ97'
@@ -44,7 +44,7 @@ function Footer() {
               <i class='fab fa-github' />
               </Link>
               <pre>      </pre>
-              <Link
+              {/* <Link
               class='social-icon-link github'
               to='/'
               target='_blank'
@@ -52,7 +52,7 @@ function Footer() {
             > 
               <i class="fas fa-file"></i>
               </Link>
-              
+               */}
           </div>
         </div>
       </section>

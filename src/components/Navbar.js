@@ -52,14 +52,16 @@ function Navbar() {
               <i class='fab fa-github' />
               </Link>
               <pre>   </pre>
-              <Link
-              class='social-icon-link github'
-              to='/'
-              target='_blank'
-              aria-label='Resume'
-            > 
-              <i class="fas fa-file"></i>
-              </Link>
+              
+             {/* <Link class='social-icon-link resume'
+             target='_blank'
+             aria-label='Resume'>
+             <a href='/files/AmeerOsmanCV.pdf' download>
+             
+             
+             <i class="fas fa-file"></i>
+             </a>
+             </Link> */}
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
@@ -71,20 +73,29 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/about-me'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                About Me
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
                 to='/projects'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Projects
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/resume'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Resume
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/about-me'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                About Me
               </Link>
               
             </li>

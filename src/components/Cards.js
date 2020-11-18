@@ -13,7 +13,7 @@ function Cards() {
               src='images/Breakthroughstarshot - Copy.jfif'
               text='Designing a YB-DCFA Laser Amplification System!'
               label='Photonics, Breakthrough Starshot'
-              path='/projects/photonics'
+              path='/projects/laser-amplifier'
             />
             <CardItem
               src='images/Quadcopter1.jpg'
