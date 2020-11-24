@@ -44,15 +44,6 @@ function Footer() {
               <i class='fab fa-github' />
               </Link>
               <pre>      </pre>
-              {/* <Link
-              class='social-icon-link github'
-              to='/'
-              target='_blank'
-              aria-label='Resume'
-            > 
-              <i class="fas fa-file"></i>
-              </Link>
-               */}
           </div>
         </div>
       </section>

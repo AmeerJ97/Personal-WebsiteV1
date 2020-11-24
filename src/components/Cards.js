@@ -11,37 +11,29 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/Breakthroughstarshot - Copy.jfif'
-              text='Designing a YB-DCFA Laser Amplification System!'
+              text='Designing a YB-DCFA Laser Amplification System'
               label='Photonics, Breakthrough Starshot'
               path='/projects/laser-amplifier'
             />
             <CardItem
               src='images/Quadcopter1.jpg'
-              text='Building a Quadcopter!'
+              text='Building a Quadcopter'
               label='Control Systems, C/C++'
               path='/projects/quadcopter'
             />
-          </ul>
-          <ul className='cards__items'>
+
             <CardItem
               src='images/circuit-board-23.jpg'
-              text='Building a Full Circuit Simulator!'
+              text='Building a Full Circuit Simulator'
               label='Circuit Analysis, MATLAB'
               path='/projects/circuit-simulator'
             />
-            {/* <CardItem
-              src='images/Machine-Learning-COVID-19-Concept.jpg'
-              text='KNN Classifier to Analyze Google COVID-19 Datasets!'
-              label='Machine Learning, Data Science'
-              path='/projects/covid19-KNN-trees'
-            /> */}
              <CardItem
               src='images/MachineLearninginMarketing-1621x1000.jpg'
-              text='Softmax Regressor to analyze Cardiotocography Data!'
+              text='Softmax Regressor to analyze Cardiotocography Data'
               label='Machine Learning, Data Science'
               path='/projects/softmax-cardiotocography'
             />
-            
           </ul>
         </div>
       </div>

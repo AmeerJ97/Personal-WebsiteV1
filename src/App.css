@@ -8,6 +8,7 @@
   .home,
   .about-me,
   .projects,
+  .resume,
   .contact-me {
     display: flex;
     height: 90vh;
@@ -21,7 +22,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 100px;
   }
   
@@ -30,7 +31,7 @@
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 100px;
   }
   
@@ -39,6 +40,16 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 100px;
   }
+  
+  .resume{
+    padding: 0pm;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background: linear-gradient(100deg, rgb(62, 65, 66) 0%, rgb(0, 0, 0) 100%);
+    
+}
+
