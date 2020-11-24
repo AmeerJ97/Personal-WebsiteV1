@@ -21,7 +21,8 @@ function Cards() {
               label='Control Systems, C/C++'
               path='/projects/quadcopter'
             />
-
+          </ul>
+          <ul className='cards__items'>
             <CardItem
               src='images/circuit-board-23.jpg'
               text='Building a Full Circuit Simulator'
@@ -34,6 +35,7 @@ function Cards() {
               label='Machine Learning, Data Science'
               path='/projects/softmax-cardiotocography'
             />
+            
           </ul>
         </div>
       </div>

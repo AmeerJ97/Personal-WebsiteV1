@@ -47,9 +47,9 @@
   .resume{
     padding: 0pm;
     background-position: center;
-    background-size: cover;
+    background-size: fill;
     background-repeat: repeat;
     background: linear-gradient(100deg, rgb(62, 65, 66) 0%, rgb(0, 0, 0) 100%);
-    
+    height: auto;
 }
 

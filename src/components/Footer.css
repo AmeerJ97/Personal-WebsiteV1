@@ -7,7 +7,7 @@
     align-items: center;
   }
   
-  .footer-subscription {
+  .footer-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,22 +19,22 @@
     color: #fff;
   }
   
-  .footer-subscription > p {
+  .footer-section > p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
   
-  .footer-subscription-heading {
+  .footer-section-heading {
     margin-bottom: 24px;
     font-size: 24px;
   }
   
-  .footer-subscription-text {
-    margin-bottom: 24px;
+  .footer-text {
+    margin-bottom: 14px;
     font-size: 20px;
   }
   
-  .footer-input {
+  .footer-name {
     padding: 8px 20px;
     border-radius: 2px;
     margin-right: 10px;
@@ -43,6 +43,27 @@
     font-size: 18px;
     margin-bottom: 16px;
     border: 1px solid #fff;
+  }
+  .footer-email {
+    padding: 8px 20px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+    
+  }
+  .footer-message {
+    padding: 1px 20px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: 50px solid #fff;
   }
   
   .footer-links {

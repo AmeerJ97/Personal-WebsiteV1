@@ -6,20 +6,36 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-text'>
+      <section className='footer-section'>
+        <p className='footer-text'>
           Contact Me!
         </p>
         <div className='input-areas'>
           <form>
             <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
+              className='footer-name'
+              name='name'
+              type='name'
+              placeholder='Your Name'
             />
-            <Button buttonStyle='btn--outline'>Send</Button>
+            </form>
+            <form>
+            <input
+            className='footer-email'
+            name='email'
+            type='email'
+            placeholder='Your Email'
+          />
           </form>
+          <form>
+          <input
+              className='footer-message'
+              name='Message'
+              type='Message'
+              placeholder='Your Message'
+            />
+          </form>
+          <Button buttonStyle='btn--outline'>Send</Button>
         </div>
       </section>
       <section class='social-media'>
