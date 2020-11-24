@@ -136,6 +136,7 @@
   
   .social-icons {
     display: flex;
+    position: auto;
     justify-content: space-between;
     align-items: center;
     width: 240px;

@@ -5,9 +5,9 @@ import '../../App.css';
 export default function Resume(){
     return <h1 className='resume'> 
         <div className='pdf_viewer'>
-            <object data="/files/AmeerOsman_CV.pdf" type="application/pdf" width="960px" height="1050px">
-                <a href="/files/AmeerOsmanCV.pdf">test.pdf</a>
-            </object>
+        
+                <a href="/files/AmeerOsman_CV.pdf" target='_blank'> Resume</a>
+            
         </div>
     </h1>
 }

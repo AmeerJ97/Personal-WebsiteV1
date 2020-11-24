@@ -76,3 +76,29 @@ video {
       width: 100%;
     }
   }
+
+  /* .landing-btns .btn{
+    padding: 8px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  } */
+  .landing-btns .btn {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid ;
+    transition: all 0.3s ease-out;
+  }
+  .landing-btns .btn {
+    padding: 16px 30px;
+    font-size: 26px;
+  }
+
+  .landing-btns .btn:hover{
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
