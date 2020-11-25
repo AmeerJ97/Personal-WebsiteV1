@@ -22,16 +22,18 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background: linear-gradient(90deg, rgb(62, 65, 66) 0%, rgb(0, 0, 0) 100%);
   color: rgb(0, 0, 0);
   font-size: 100px;
 }
 
 .projects {
   /* background-image: url('/images/img-1.jpg'); */
-  background-position: center;
+  background-position: auto;
   background-size: fill;
   background-repeat: no-repeat;
   color: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(62, 65, 66) 0%, rgb(0, 0, 0) 100%);
   font-size: 100px;
 }
 
