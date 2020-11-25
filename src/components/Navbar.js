@@ -30,28 +30,9 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             Ameer Osman <pre> </pre>
-            <i class="fas fa-chess-knight"></i>
+            {/* <i class="fas fa-chess-knight"></i> */}
             {/* <i class='fab fa-typo3' /> */}
           </Link>
-          <pre> </pre>
-          <Link
-            class="social-icon-link linkedin"
-            to={"//www.linkedin.com/in/ameer-i-859837165/"}
-            target="_blank"
-            aria-label="LinkedIn"
-          >
-            <i class="fab fa-linkedin" />
-          </Link>
-          <pre> </pre>
-          <Link
-            class="social-icon-link github"
-            to="//github.com/AmeerJ97"
-            target="_blank"
-            aria-label="Github"
-          >
-            <i class="fab fa-github" />
-          </Link>
-          <pre> </pre>
 
           {/* <Link class='social-icon-link resume'
              target='_blank'

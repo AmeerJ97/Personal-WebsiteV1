@@ -1,8 +1,10 @@
 import React from "react";
 import "../../App.css";
+import Footer from '../Footer';
 
 export default function ContactMe() {
   return (
+    <>
     <h1 className="contact-me">
       <h1 className="contact-title"></h1>
       <h1 className="contact-forum"> Contact Me
@@ -50,5 +52,7 @@ export default function ContactMe() {
 
       </h1>
     </h1>
+    <Footer />
+    </>
   );
 }

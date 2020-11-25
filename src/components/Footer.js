@@ -6,38 +6,6 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer-container">
-      {/* <section className='footer-section'>
-        <p className='footer-text'>
-          Contact Me!
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-name'
-              name='name'
-              type='name'
-              placeholder='Your Name'
-            />
-            </form>
-            <form>
-            <input
-            className='footer-email'
-            name='email'
-            type='email'
-            placeholder='Your Email'
-          />
-          </form>
-          <form>
-          <input
-              className='footer-message'
-              name='Message'
-              type='Message'
-              placeholder='Your Message'
-            />
-          </form>
-          <Button buttonStyle='btn--outline'>Send</Button>
-        </div>
-      </section> */}
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="social-icons">
@@ -49,7 +17,8 @@ function Footer() {
             >
               <i class="fab fa-linkedin" />
             </Link>
-
+          </div>
+          <div class="social-icons">
             <Link
               class="social-icon-link github"
               to="//github.com/AmeerJ97"
