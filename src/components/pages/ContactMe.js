@@ -7,7 +7,7 @@ export default function ContactMe() {
     <>
     <h1 className="contact-me">
       <h1 className="contact-title"></h1>
-      <h1 className="contact-forum"> Contact Me
+      <h1 className="contact-forum"> Send me your thoughts
         <h1 className="contact-name">
           <form>
             <input

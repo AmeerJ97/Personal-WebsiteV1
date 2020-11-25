@@ -22,7 +22,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background: linear-gradient(90deg, rgb(62, 65, 66) 0%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(90deg, rgb(14, 66, 83) 0%, rgb(0, 0, 0) 100%);
   color: rgb(0, 0, 0);
   font-size: 100px;
 }
@@ -33,13 +33,13 @@
   background-size: fill;
   background-repeat: no-repeat;
   color: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgb(62, 65, 66) 0%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(90deg, rgb(14, 66, 83) 0%, rgb(0, 0, 0) 100%);
   font-size: 100px;
 }
 
 .contact-me {
   /* background-image: url('/images/img-8.jpg'); */
-  background: linear-gradient(90deg, rgb(62, 65, 66) 0%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(90deg, rgb(14, 66, 83) 0%, rgb(0, 0, 0) 100%);
   background-position: auto;
   background-size: 100%;
   background-repeat: repeat;
