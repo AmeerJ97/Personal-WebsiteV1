@@ -1,6 +1,7 @@
 .cards {
     padding: 4rem;
-    background: transparent;
+    background: linear-gradient(90deg, rgb(14, 66, 83) 0%, rgb(0, 0, 0) 100%);
+    color: white;
   }
   
   h1 {
@@ -36,10 +37,12 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.17);
+    box-shadow:  15px 20px 25px rgba(255, 255, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.017));
     border-radius: 10px;
+    border: solid 0.5px;
+    border-color: white;
     overflow: hidden;
     text-decoration: none;
   }
@@ -94,7 +97,7 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: #ffffff;
     font-size: 18px;
     line-height: 24px;
   }

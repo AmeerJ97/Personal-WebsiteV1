@@ -26,7 +26,19 @@
   color: rgb(0, 0, 0);
   font-size: 100px;
 }
-
+.about-me .title{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin-top: -150px;
+}
+.about-me .body{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  width: 600px;
+  
+}
 .projects {
   /* background-image: url('/images/img-1.jpg'); */
   background-position: auto;
@@ -45,12 +57,14 @@
   background-repeat: repeat;
   color: rgb(0, 0, 0);
   font-size: 100px;
+  z-index: 50;
 }
 .contact-me .contact-title {
   position: auto;
   font-size: 100px;
   color: white;
   padding: 0%;
+  z-index: 50;
 }
 .contact-me .contact-forum {
   position: auto;
@@ -58,6 +72,7 @@
   color: white;
   position: auto;
   font-size: 50px;
+  z-index: 50;
 }
 .contact-me .contact-forum .contact-name{
   padding: 8px 20px;

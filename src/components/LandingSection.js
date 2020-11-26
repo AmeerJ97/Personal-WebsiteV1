@@ -177,22 +177,26 @@ function LandingSection() {
       </div>
       <div className="typed-wrapper">
         <span class="text">
-        <Typed strings={["I Code In"]}
-         typeSpeed={50} />
-        <br />
+          <Typed strings={["I Code In"]} typeSpeed={50} />
+          <br />
         </span>
         <span class="text-box">
-        <Typed strings={["Java",
-         "C++",
-         "Python",
-         "React.Js",
-         "CSS",
-         "HTML",
-         "C",]}
-         typeSpeed={70} 
-         backSpeed={80}
-         loop/>
-        <br />
+          <Typed
+            strings={[
+              "Java",
+              "C++",
+              "Python",
+              "React.Js",
+              "CSS",
+              "HTML",
+              "C",
+              "MATLAB",
+            ]}
+            typeSpeed={70}
+            backSpeed={80}
+            loop
+          />
+          <br />
         </span>
       </div>
     </div>
