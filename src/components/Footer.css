@@ -16,15 +16,16 @@
   .social-media {
     max-width: 1000px;
     width: 100%;
+
   }
   
   .social-media-wrap {
     display: flex;
+    position: relative;
     justify-content: space-between;
-    align-items: center;
     width: 90%;
     max-width: 50px;
-    margin: 40px auto 0 auto;
+    margin: 5px auto 0 auto;
     z-index: 2;
   }
   

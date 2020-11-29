@@ -123,10 +123,15 @@ export default function About() {
       </div>
       <div className="about-me">
         <h1 className="title"> About Me
-        <h1 className="body"> My name is Ameer Ibrahim Osman, I'm a 23 year old tech enthusiast with a passion for physics 
-        and engineering. I hold a B.Eng in Electrical Engineering from McGill University. I like to build things like
-        this website (which is running on my home server) and my Quadcopter in my free time. My hobbies include 
-        skateboarding, gaming, coding, and drinking redbulls.
+        <h1 className="body"> My name is Ameer Ibrahim Osman, I'm a 23 year old tech enthusiast with a passion for 
+        Engineering and Physics. I hold a B.Eng in Electrical Engineering from McGill University. I'm an avid learner that's
+        committed to lifelong learning. I'm currently looking for my first full-time position to start my career. My interests are vast
+        and include Software development, Machine Learning, Photonics, and Network Engineering.
+        </h1>
+        <h1 className="body2">
+        In my free time I like to build systems like the quadcopter or teach myself a new skill like full-stack design to 
+        create this website (which runs on my home server). My hobbies include skateboarding, gaming, coding, and 
+        drinking redbulls.
         </h1>
         </h1>
       </div>

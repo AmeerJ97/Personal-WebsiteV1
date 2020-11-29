@@ -25,19 +25,50 @@
   background: linear-gradient(90deg, rgb(14, 66, 83) 0%, rgb(0, 0, 0) 100%);
   color: rgb(0, 0, 0);
   font-size: 100px;
+  margin: auto;
 }
 .about-me .title{
+  position: auto;
   text-align: center;
   font-size: 50px;
   color: white;
   margin-top: -150px;
+  margin-bottom: -50px;
 }
 .about-me .body{
+  position: auto;
   text-align: center;
   color: white;
   font-size: 25px;
-  width: 600px;
+  width: 800px;
   
+}
+.about-me .body2{
+  position: auto;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  width: 800px;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 960px) {
+  .about-me > .title {
+    font-size: 50px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-me > .title {
+    font-size: 35px;
+    margin-top: -80px;
+  }
+
+  .about-me > .body {
+    font-size: 15px;
+    width: auto;
+  }
 }
 .projects {
   /* background-image: url('/images/img-1.jpg'); */
