@@ -34,6 +34,10 @@
   color: white;
   margin-top: -150px;
   margin-bottom: -50px;
+  display: flex;
+  flex-flow: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
 }
 .about-me .body{
   position: auto;
@@ -41,7 +45,12 @@
   color: white;
   font-size: 25px;
   width: 800px;
-  
+  margin-top: 15px;
+  display: flex;
+  flex-flow: column;
+  align-items: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
 }
 .about-me .body2{
   position: auto;
@@ -50,24 +59,66 @@
   font-size: 25px;
   width: 800px;
   margin-top: 15px;
+  display: flex;
+  flex-flow: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
 }
+
 
 @media screen and (max-width: 960px) {
-  .about-me > .title {
-    font-size: 50px;
-    margin-top: -150px;
+  .about-me {
+    width: 100%;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .about-me > .title {
-    font-size: 35px;
-    margin-top: -80px;
+  .about-me > .title{
+    margin-top: 80px;
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-  .about-me > .body {
+  .about-me > .title > .body{
+    font-size: 20px;
+    width: 75%;
+    
+
+  }
+  .about-me > .title > .body2{
+    font-size: 20px;
+    width: 75%;
+    margin-bottom: 150px;
+  }
+  .contact-me {
+    width: 100%;
+  }
+  .contact-me > .contact-title{
+    margin-top: 80px;
     font-size: 15px;
-    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-me > .contact-forum{
+    margin-top: 0px;
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-me > .contact-forum > .contact-name{
+
+  }
+  .contact-me > .contact-forum > .contact-email{
+    font-size: 20px;
+    width: 75%;
+    margin-bottom: 150px;
+  }
+  .contact-me > .contact-forum > .contact-message{
+    font-size: 20px;
+    width: 75%;
+    margin-bottom: 150px;
   }
 }
 .projects {
@@ -159,12 +210,4 @@
   background: #fff;
   color: #242424;
   transition: 250ms;
-}
-.resume {
-  padding: 0pm;
-  background-position: center;
-  background-size: fill;
-  background-repeat: repeat;
-  background: linear-gradient(100deg, rgb(62, 65, 66) 0%, rgb(0, 0, 0) 100%);
-  height: max-content;
 }

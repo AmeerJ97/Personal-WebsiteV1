@@ -71,13 +71,7 @@ video {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
-  .landing-container > p2 {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 22px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-  }
+
   .landing-btns {
     margin-top: 32px;
     z-index: 2;
@@ -103,9 +97,15 @@ video {
   @media screen and (max-width: 768px) {
     .landing-container > h1 {
       font-size: 50px;
-      margin-top: -80px;
+      margin-top: -30px;
     }
-  
+    .landing-container > p {
+      font-size: 50px;
+    }
+    /* Fix */
+    .landing-container > .particles-js{
+      object-fit: cover;
+    }
     .landing-container > p {
       font-size: 30px;
       margin-top: 50px;
@@ -113,14 +113,13 @@ video {
       margin-left: 30px;
     }
   
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
-      z-index: 2;
+
+    .landing-container > .landing-btns{
+      
     }
-  
+
     .btn {
-      width: 100%;
+      width: 95%;
       z-index: 2;
     }
   }
