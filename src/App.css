@@ -98,6 +98,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50px;
   }
 
   .contact-me > .contact-forum{
@@ -108,16 +109,16 @@
     align-items: center;
   }
   .contact-me > .contact-forum > .contact-name{
-
+    width: 50px;
   }
   .contact-me > .contact-forum > .contact-email{
     font-size: 20px;
-    width: 75%;
+    width: 10px;
     margin-bottom: 150px;
   }
   .contact-me > .contact-forum > .contact-message{
     font-size: 20px;
-    width: 75%;
+    width: 100px;
     margin-bottom: 150px;
   }
 }
@@ -211,3 +212,68 @@
   color: #242424;
   transition: 250ms;
 }
+
+.project_photonics{
+  background: linear-gradient(90deg, rgb(14, 66, 83) 0%, rgb(0, 0, 0) 100%);
+  background-position: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  z-index: 1;
+}
+
+
+.project_photonics .laser_image {
+  background-position: auto;
+  background-size: 100%;
+  background-repeat: repeat;
+  font-size: 100px;
+  z-index: 5000;
+}
+
+.project_photonics .laser_image .laser_image_img{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 400px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: solid 0.5px;
+  border-color: white;
+}
+
+.project_photonics .text{
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  z-index: 50;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
+  width: 550px;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.project_photonics .text-title{
+  color: rgb(255, 255, 255);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+'Lucida Sans', Arial, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  width: 750px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+/*
+position: auto;
+text-align: center;
+font-size: 35px;
+color: white;
+margin-bottom: 50px;
+width: 50%;
+display: flex;
+flex-flow: column;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+'Lucida Sans', Arial, sans-serif;
+*/

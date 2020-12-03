@@ -1,11 +1,13 @@
 import React from "react";
 import "../../App.css";
+import Cards_project from "../CardsProject";
 import Footer from "../Footer";
 import Particles from "react-particles-js";
-export default function About() {
+
+export default function Project_photonics() {
   return (
     <>
-    <div className="particles-js">
+      <div className="particles-js">
         <Particles
           id="tsparticles"
           params={{
@@ -121,21 +123,22 @@ export default function About() {
           }}
         />
       </div>
-      <div className="about-me">
-        <h1 className="title"> About Me
-        <h1 className="body"> My name is Ameer Ibrahim Osman, I'm a 23 year old tech enthusiast with a passion for 
-        Engineering and Physics. I hold a B.Eng in Electrical Engineering from McGill University. I'm an avid learner that's
-        committed to lifelong learning. I'm currently looking for my first full-time position to start my career. My interests are vast
-        and include Software development, Machine Learning, Photonics, and Network Engineering.
-        </h1>
-        <h1 className="body2">
-        In my free time I like to build systems like the quadcopter or teach myself a new skill like full-stack development to 
-        used create this website (which runs on my home server). My hobbies include skateboarding, gaming, coding, and 
-        drinking redbulls.
-        </h1>
-        </h1>
-      </div>
-      <Footer />
+      <div className='project_photonics'>
+      <h1 className='text-title'>
+      Fiber Laser Amplifier for Photonic Directed Energy
+        Propulsion and Interstellar Flight
+      </h1>
+      <figure className='laser_image'>
+          <img className='laser_image_img'
+          src='../images/Breakthroughstarshot - Copy.jfif'>
+
+          </img>
+      </figure>
+      <h1 className='text'>
+          Hello hi hello hi hello hi           Hello hi hello hi hello hi           Hello hi hello hi hello hi
+      </h1>
+    </div>
+    <Footer />
     </>
   );
 }

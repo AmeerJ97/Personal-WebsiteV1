@@ -29,7 +29,8 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            Ameer Osman <pre> </pre>
+            <div className="nav-title">
+            Ameer Osman </div>
             {/* <i class="fas fa-chess-knight"></i> */}
             {/* <i class='fab fa-typo3' /> */}
           </Link>
