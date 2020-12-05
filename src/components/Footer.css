@@ -25,7 +25,7 @@
     justify-content: space-between;
     width: 90%;
     max-width: 50px;
-    margin: 5px auto 0 auto;
+    margin: 8px auto 8px auto;
     z-index: 2;
   }
   
@@ -37,11 +37,12 @@
     width: 2px;
     margin: 20px;
     z-index: 2;
+
   }
   
   .social-logo {
     color: #fff;
-    justify-self: start;
+    justify-self: normal;
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;

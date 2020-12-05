@@ -5,7 +5,7 @@ import CardItem from './CardItem';
 function Cards_project() {
   return (
     <div className='cards'>
-      <h1>Here are some of my projects!</h1>
+      <h1>Here are my featured projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -21,13 +21,9 @@ function Cards_project() {
               label='Control Systems, C/C++'
               path='/projects/quadcopter'
             />
-                         <CardItem
-              src='images/madmax---copy.png'
-              text='Autonomous Search-and-Recover Robot'
-              label='Robotics / Java'
-              path='/projects/autonomous-search-and-recover'
-            />
+
           </ul>
+          <h1> Other noteworthy projects</h1>
           <ul className='cards__items'>
             <CardItem
               src='images/circuit-board-23.jpg'
@@ -47,7 +43,12 @@ function Cards_project() {
               label='Machine Learning, Data Science, Python'
               path='/projects/KNN-covid-19'
             />
-            
+              <CardItem
+              src='images/madmax---copy.png'
+              text='Autonomous Search-and-Recover Robot'
+              label='Robotics / Java'
+              path='/projects/autonomous-search-and-recover'
+            />
           </ul>
         </div>
       </div>

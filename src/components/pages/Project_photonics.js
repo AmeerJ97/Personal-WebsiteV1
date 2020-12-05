@@ -128,12 +128,10 @@ export default function Project_photonics() {
       Fiber Laser Amplifier for Photonic Directed Energy
         Propulsion and Interstellar Flight
       </h1>
-      <figure className='laser_image'>
           <img className='laser_image_img'
           src='../images/Breakthroughstarshot - Copy.jfif'>
 
           </img>
-      </figure>
       <h1 className='text'>
           Hello hi hello hi hello hi           Hello hi hello hi hello hi           Hello hi hello hi hello hi
       </h1>
