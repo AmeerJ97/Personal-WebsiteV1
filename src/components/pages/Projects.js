@@ -7,6 +7,7 @@ import Particles from "react-particles-js";
 export default function Projects() {
   return (
     <>
+    <div className= "projects-container">
       <div className="particles-js">
         <Particles
           id="tsparticles"
@@ -124,7 +125,11 @@ export default function Projects() {
         />
       </div>
       <Cards_project />
+  
+      </div>
+      <div className='project-footer'>
       <Footer />
+      </div>
     </>
   );
 }

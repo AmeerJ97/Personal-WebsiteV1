@@ -27,6 +27,7 @@
     max-width: 50px;
     margin: 8px auto 8px auto;
     z-index: 2;
+    
   }
   
   .social-icons {
@@ -37,7 +38,7 @@
     width: 2px;
     margin: 20px;
     z-index: 2;
-
+    margin-left: -8px;
   }
   
   .social-logo {

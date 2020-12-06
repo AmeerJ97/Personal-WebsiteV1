@@ -4,7 +4,7 @@ import CardItem from './CardItem';
 
 function Cards_project() {
   return (
-    <div className='cards'>
+    <div className='cards_project'>
       <h1>Here are my featured projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -23,7 +23,7 @@ function Cards_project() {
             />
 
           </ul>
-          <h1> Other noteworthy projects</h1>
+          <h2> Other noteworthy projects</h2>
           <ul className='cards__items'>
             <CardItem
               src='images/circuit-board-23.jpg'

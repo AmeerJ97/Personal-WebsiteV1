@@ -124,18 +124,14 @@ export default function Project_photonics() {
             }}
           />
         </div>
-        <h1 className="text-title">
-          Fiber Laser Amplifier for Photonic Directed Energy Propulsion and
-          Interstellar Flight
+        <h1 className="text-title-quadcopter">
+            Personal Project: Building a Quadcopter
         </h1>
-        <img
-          className="laser_image_img"
-          src="../images/Breakthroughstarshot - Copy.jfif"
-        ></img>
+        <img className="quadcopter-img" src="../images/Quadcopter1.jpg"></img>
         <div className="project-buttons">
           <Link
             class="social-icon-link github"
-            to="//github.com/AmeerJ97/Photonics/tree/master/Capstone%20Design%20Project"
+            to="//github.com/AmeerJ97/Quadcopter-Design-Project-V3.0"
             target="_blank"
             aria-label="Github"
           >
@@ -152,20 +148,16 @@ export default function Project_photonics() {
           </Link>
         </div>
         <h1 className="text">
-          My Capstone/Design Project was in collaboration with Project
-          Breakthrough Starshot at UCSB and the McGill Interstellar Flight Club.
-          The project served as a proof of concept for Breakthrough Starshot
-          where we designed a Directed Energy Photonic Amplification System that
-          augments 10mW input to 1W output.
+          In this personal project, i explore how to build a Quadcopter basically 
+          from scratch. I'm using programmable modules for hardware. For software il be designing the 
+          entire flight controller software without utilizing external software such as multiWii. I've also built 
+          an arduino based transmitter station that utilizes the PS3 controller.
         </h1>
         <h1 className="text2">
           {" "}
-          My role in this project was Team Leader where I spearheaded extensive
-          research into solid-state semiconductor sources, optical amplifiers,
-          variable optical attenuators, optical band pass filters, and various
-          other optical devices utilized. Moreover, i was in charge of
-          simulating the system. Find the details and results of the project by
-          using the github link provided.
+          This project was developed in the Arduino Enviroment, using the language C/C++. You can find a list of 
+          the hardware components used as well as the source code on my github by using the 
+          link provided above.
         </h1>
       </div>
       <Footer />

@@ -7,6 +7,7 @@ import Projects from './components/pages/Projects';
 import About from './components/pages/About';
 import ContactMe from './components/pages/ContactMe';
 import Project_photonics from './components/pages/Project_photonics'
+import Project_quadcopter from './components/pages/Project_quadcopter'
 import Resume from './components/pages/Resume';
 
 
@@ -22,7 +23,7 @@ function App() {
           <Route path='/about-me' exact component={About} />
           <Route path='/contact-me' exact component={ContactMe} />
           <Route path='/projects/laser-amplifier' exact component={Project_photonics} />
-         
+          <Route path='/projects/quadcopter'exact component={Project_quadcopter} />
         </Switch>
       </Router>
     </>

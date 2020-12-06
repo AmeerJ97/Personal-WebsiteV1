@@ -122,10 +122,10 @@ export default function ContactMe() {
           }}
         />
       </div>
-    <h1 className="contact-me">
-      <h1 className="contact-title"></h1>
-      <h1 className="contact-forum"> Send me your thoughts
-        <h1 className="contact-name">
+    <div className="contact-me">
+      <div className="contact-forum">
+      <h1 className="contact-title"> Send me your thoughts</h1>
+        <div className="contact-name">
           <form>
             <input
               className="contact-name"
@@ -135,8 +135,8 @@ export default function ContactMe() {
               
             />
           </form>
-        </h1>
-        <h1 className="contact-email">
+        </div>
+        <div className="contact-email">
           <form>
             <input
               className="contact-email"
@@ -145,8 +145,8 @@ export default function ContactMe() {
               placeholder="Your Email"
             />
           </form>
-        </h1>
-        <h1 className="contact-message">
+        </div>
+        <div className="contact-message">
           <form>
             <input
               className="contact-message"
@@ -157,7 +157,7 @@ export default function ContactMe() {
               size="20"
             />
           </form>
-        </h1>
+        </div>
         <div className='contact-btn'>
         <button
             className="btn"
@@ -167,8 +167,8 @@ export default function ContactMe() {
         </button>
         </div>
 
-      </h1>
-    </h1>
+      </div>
+    </div>
     <Footer />
     </>
   );

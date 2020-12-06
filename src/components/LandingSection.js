@@ -132,12 +132,11 @@ function LandingSection() {
       </div>
       <h1>Hello World!</h1>
       <p>
-        {" "}
         I'm Ameer, an Electrical Engineer graduating from McGill University.
       </p>
 
       <div className="landing-btns">
-        <a href="/files/AmeerOsman_CV.pdf" target="_blank">
+        {/* <a href="/files/AmeerOsman_CV.pdf" target="_blank">
           <button
             className="btn"
             buttonStyle="btn--outline"
@@ -145,7 +144,7 @@ function LandingSection() {
           >
             Resume
           </button>
-        </a>
+        </a> */}
         <Link
           class="social-icon-link linkedin"
           to={"//www.linkedin.com/in/ameer-i-859837165/"}
@@ -157,7 +156,9 @@ function LandingSection() {
             buttonStyle="btn--outline"
             buttonSize="btn--large"
           >
-            <i class="fab fa-linkedin" />
+            <p>
+              LinkedIn <i class="fab fa-linkedin" />
+            </p>
           </button>
         </Link>
         <Link
@@ -171,7 +172,9 @@ function LandingSection() {
             buttonStyle="btn--outline"
             buttonSize="btn--large"
           >
-            <i class="fab fa-github" />
+            <p>
+              Github <i class="fab fa-github" />
+            </p>
           </button>
         </Link>
       </div>
