@@ -8,9 +8,6 @@ import About from './components/pages/About';
 import ContactMe from './components/pages/ContactMe';
 import Project_photonics from './components/pages/Project_photonics'
 import Project_quadcopter from './components/pages/Project_quadcopter'
-import Resume from './components/pages/Resume';
-
-
 
 function App() {
   return (

@@ -89,10 +89,15 @@
   .contact-me {
     width: 100%;
   }
-  .contact-me > .contact-forum {
+  .contact-me > .contact-forum > .contact-title{
     width: 75%;
-    justify-content: center;
     align-items: center;
+    margin-left: 50px;
+  }
+  .contact-me > .contact-forum > .contact-name{
+    width: 50%;
+    font-size: 50%;
+    
   }
 
   .project_container {

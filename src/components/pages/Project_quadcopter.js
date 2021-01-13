@@ -142,15 +142,15 @@ export default function Project_photonics() {
             >
               <p>
                 {" "}
-                Project Link <i class="fab fa-github" />
+                Project Code <i class="fab fa-github" />
               </p>
             </button>
           </Link>
         </div>
         <h1 className="text">
-          In this personal project, i explore how to build a Quadcopter basically 
-          from scratch. I'm using programmable modules for hardware. For software il be designing the 
-          entire flight controller software without utilizing external software such as multiWii. I've also built 
+          In this personal project, I explore how to build a Quadcopter using programmable modules
+          from scratch. For software, I'm currently designing the 
+          flight controller software without utilizing external software such as multiWii. I've also built 
           an arduino based transmitter station that utilizes the PS3 controller.
         </h1>
         <h1 className="text2">

@@ -4,6 +4,18 @@ import Footer from '../Footer';
 import Particles from "react-particles-js";
 
 export default function ContactMe() {
+
+  const [submitting, setSubmitting] = useState(false);
+  const handleSubmit = event => {
+    event.preventDefault();
+    setSubmitting(true);
+
+    setTimeout(() => {
+      setSubmitting(false);
+    }, 3000)
+  }
+
+
   return (
     <>
     <div className="particles-js">
@@ -125,7 +137,7 @@ export default function ContactMe() {
     <div className="contact-me">
       <div className="contact-forum">
       <h1 className="contact-title"> Send me your thoughts</h1>
-        <div className="contact-name">
+        
           <form>
             <input
               className="contact-name"
@@ -135,8 +147,8 @@ export default function ContactMe() {
               
             />
           </form>
-        </div>
-        <div className="contact-email">
+
+        
           <form>
             <input
               className="contact-email"
@@ -145,8 +157,8 @@ export default function ContactMe() {
               placeholder="Your Email"
             />
           </form>
-        </div>
-        <div className="contact-message">
+   
+        
           <form>
             <input
               className="contact-message"
@@ -157,7 +169,7 @@ export default function ContactMe() {
               size="20"
             />
           </form>
-        </div>
+  
         <div className='contact-btn'>
         <button
             className="btn"
