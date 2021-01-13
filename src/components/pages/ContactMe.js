@@ -5,15 +5,15 @@ import Particles from "react-particles-js";
 
 export default function ContactMe() {
 
-  const [submitting, setSubmitting] = useState(false);
-  const handleSubmit = event => {
-    event.preventDefault();
-    setSubmitting(true);
+  // const [submitting, setSubmitting] = useState(false);
+  // const handleSubmit = event => {
+  //   event.preventDefault();
+  //   setSubmitting(true);
 
-    setTimeout(() => {
-      setSubmitting(false);
-    }, 3000)
-  }
+  //   setTimeout(() => {
+  //     setSubmitting(false);
+  //   }, 3000)
+  // }
 
 
   return (
