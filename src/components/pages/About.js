@@ -5,6 +5,7 @@ import Particles from "react-particles-js";
 export default function About() {
   return (
     <>
+    <div className='big-container'>
     <div className="particles-js">
         <Particles
           id="tsparticles"
@@ -136,6 +137,7 @@ export default function About() {
         </h1>
       </div>
       <Footer />
+      </div>
     </>
   );
 }

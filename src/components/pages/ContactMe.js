@@ -18,6 +18,7 @@ export default function ContactMe() {
 
   return (
     <>
+    <div className='big-container'>
     <div className="particles-js">
         <Particles
           id="tsparticles"
@@ -137,39 +138,40 @@ export default function ContactMe() {
     <div className="contact-me">
       <div className="contact-forum">
       <h1 className="contact-title"> Send me your thoughts</h1>
-        
+        <div className="contact-name">
           <form>
             <input
-              className="contact-name"
-              name="name"
+              className="contact_name"
+              name="Name"
               type="text"
               placeholder="Your Name"
               
             />
           </form>
 
-        
+          </div>
+          <div className="contact-email"> 
           <form>
             <input
-              className="contact-email"
-              name="email"
+              className="contact_email"
+              name="Email"
               type="text"
               placeholder="Your Email"
+              
             />
           </form>
-   
-        
+          </div>
+          <div className="contact-message">
           <form>
             <input
-              className="contact-message"
+              className="contact_message"
               name="Message"
               type="text"
               placeholder="Your Message"
-              maxLength = "inf"
-              size="20"
+              
             />
           </form>
-  
+        </div>
         <div className='contact-btn'>
         <button
             className="btn"
@@ -182,6 +184,7 @@ export default function ContactMe() {
       </div>
     </div>
     <Footer />
+    </div>
     </>
   );
 }

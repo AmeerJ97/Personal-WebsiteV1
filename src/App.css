@@ -65,86 +65,6 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
-@media screen and (max-width: 960px) {
-  .about-me {
-    width: 100%;
-  }
-  .about-me > .title {
-    margin-top: 80px;
-    font-size: 30px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .about-me > .title > .body {
-    font-size: 20px;
-    width: 75%;
-  }
-  .about-me > .title > .body2 {
-    font-size: 20px;
-    width: 75%;
-    margin-bottom: 150px;
-  }
-  .contact-me {
-    width: 100%;
-  }
-  .contact-me > .contact-forum > .contact-title{
-    width: 75%;
-    align-items: center;
-    margin-left: 50px;
-  }
-  .contact-me > .contact-forum > .contact-name{
-    width: 50%;
-    font-size: 50%;
-    
-  }
-
-  .project_container {
-    width: 100%;
-    overflow: scroll;
-  }
-
-  .project_container > .laser_image_img {
-    width: 75%;
-    max-width: 200px;
-  }
-  .project_container > .quadcopter-img {
-    width: 75%;
-    max-width: 200px;
-  }
-
-  .project_container > .text-title {
-    max-width: 75%;
-    font-size: 20px;
-    padding-top: 150%;
-  }
-
-  .project_container > .text-title-quadcopter {
-    max-width: 75%;
-    font-size: 20px;
-    padding-top: 50%;
-  }
-  .project_container > .text {
-    max-width: 75%;
-  }
-  .project_container > .text2 {
-    max-width: 75%;
-  }
-
-  .project_container > .project-buttons {
-    width: 55%;
-  }
-}
-/* .projects {
-  background-position: auto;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgb(14, 66, 83) 0%, rgb(0, 0, 0) 100%);
-  font-size: 100px;
-} */
-
 .contact-me {
   /* background-image: url('/images/img-8.jpg'); */
   background: linear-gradient(90deg, rgb(14, 66, 83) 0%, rgb(0, 0, 0) 100%);
@@ -174,7 +94,7 @@
   flex-direction: column;
 }
 
-.contact-me .contact-forum .contact-name {
+.contact-me .contact-forum .contact-name .contact_name{
   padding: 8px 20px;
   border-radius: 2px;
   margin-right: 10px;
@@ -187,7 +107,7 @@
   width: 500px;
   height: 50px;
 }
-.contact-me .contact-forum .contact-email {
+.contact-me .contact-forum .contact_email {
   padding: 8px 20px;
   border-radius: 2px;
   margin-right: 10px;
@@ -200,7 +120,7 @@
   width: 500px;
   height: 50px;
 }
-.contact-me .contact-forum .contact-message {
+.contact-me .contact-forum .contact_message {
   padding: 8px 20px;
   border-radius: 2px;
   margin-top: 10px;
@@ -348,3 +268,106 @@
   transition: 250ms;
   z-index: 50;
 }
+
+@media screen and (max-width: 960px){
+  .big-container{
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .contact-me{
+    width: 100%;
+  }
+  .contact-me > .contact-forum{
+    width: 350px;
+  }
+
+  .contact-me > .contact-forum > .contact-title{
+    width: 100%;
+  }
+  .contact-me > .contact-forum > .contact-name{
+    width: 3px;
+  }
+  .big-container > .particles-js{
+    height: 100vh;
+  }
+
+   .contact-me > .contact-forum > .contact-name > .contact_name{
+    max-width: 10%;
+  }
+  
+  .contact-me > .contact-forum > .contact-email > .contact_email{
+    width: 1%;
+  }
+
+  .contact-me > .contact-forum > .contact-message > .contact_message{
+    width: 100%;
+  } 
+}
+@media screen and (max-width: 960px) {
+  .about-me {
+    width: 100%;
+  }
+  .about-me > .title {
+    margin-top: 80px;
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me > .title > .body {
+    font-size: 20px;
+    width: 75%;
+  }
+  .about-me > .title > .body2 {
+    font-size: 20px;
+    width: 75%;
+    margin-bottom: 150px;
+  }
+  
+  .project_container {
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .project_container > .laser_image_img {
+    width: 75%;
+    max-width: 200px;
+  }
+  .project_container > .quadcopter-img {
+    width: 75%;
+    max-width: 200px;
+  }
+
+  .project_container > .text-title {
+    max-width: 75%;
+    font-size: 20px;
+    padding-top: 150%;
+  }
+
+  .project_container > .text-title-quadcopter {
+    max-width: 75%;
+    font-size: 20px;
+    padding-top: 50%;
+  }
+  .project_container > .text {
+    max-width: 75%;
+  }
+  .project_container > .text2 {
+    max-width: 75%;
+  }
+
+  .project_container > .project-buttons {
+    width: 55%;
+  }
+}
+/* .projects {
+  background-position: auto;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(14, 66, 83) 0%, rgb(0, 0, 0) 100%);
+  font-size: 100px;
+} */
+
